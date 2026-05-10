@@ -56,7 +56,7 @@ by David Cariboo on Kaggle.
 
 2\. Place CSVs in a `data/` folder
 
-3\. Open `football\\\_loyalty\\\_analysis.ipynb` in Jupyter
+3\. Open `football-player-loyalty-analysis.ipynb` in Jupyter
 
 4\. Run all cells
 
