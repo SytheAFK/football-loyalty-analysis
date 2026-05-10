@@ -1,62 +1,49 @@
-\# Positional Loyalty in the Premier League (2019–2024)
+# Positional Loyalty in the Premier League (2019–2024)
 
-
-
-\## Question
+## Question
 
 Which positions are most loyal to their clubs in the Premier League
 
 based on the last 5 seasons?
 
+## Dataset
 
-
-\## Dataset
-
-\[Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores)
+[Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores)
 
 by David Cariboo on Kaggle.
 
+## Key Findings
 
+- **Midfielders** are the most loyal position — 39.7 average appearances per club stay
 
-\## Key Findings
+- **Defenders** are close behind at 39.2 appearances
 
-\- \*\*Midfielders\*\* are the most loyal position — 39.7 average appearances per club stay
+- **Attackers** average 37.1 appearances per club stay
 
-\- \*\*Defenders\*\* are close behind at 39.2 appearances
+- **Goalkeepers** are surprisingly the least loyal at 34.2 average appearances
 
-\- \*\*Attackers\*\* average 37.1 appearances per club stay
+- Mohamed Salah (212) and Jordan Pickford (215) top the outfield and
 
-\- \*\*Goalkeepers\*\* are surprisingly the least loyal at 34.2 average appearances
+goalkeeper loyalty charts respectively
 
-\- Mohamed Salah (212) and Jordan Pickford (215) top the outfield and
+## Charts
 
-&#x20; goalkeeper loyalty charts respectively
+![Loyalty by Position](loyalty_by_position.png)
 
+![Top 5 Loyal Players](top5_loyal_players.png)
 
+## Tools Used
 
-\## Charts
+- Python, Pandas, Matplotlib, Seaborn
 
-!\[Loyalty by Position](loyalty\_by\_position.png)
+- Jupyter Notebook
 
-!\[Top 5 Loyal Players](top5\_loyal\_players.png)
+## How to Run
 
+1. Download the dataset from the Kaggle link above
 
+2. Place CSVs in a data/ folder
 
-\## Tools Used
+3. Open football-player-loyalty-analysis.ipynb in Jupyter
 
-\- Python, Pandas, Matplotlib, Seaborn
-
-\- Jupyter Notebook
-
-
-
-\## How to Run
-
-1\. Download the dataset from the Kaggle link above
-
-2\. Place CSVs in a `data/` folder
-
-3\. Open `football-player-loyalty-analysis.ipynb` in Jupyter
-
-4\. Run all cells
-
+4. Run all cells
